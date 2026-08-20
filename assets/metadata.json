@@ -1,0 +1,10 @@
+{
+  "name": "Smart Health Assistant & Appointment Portal",
+  "description": "A user-friendly web app for patients to register symptoms. An AI model predicts possible diseases and suggests nearby doctors for booking appointments.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone",
+    "notifications",
+    "clipboard-write"
+  ]
+}

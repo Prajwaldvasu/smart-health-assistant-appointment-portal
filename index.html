@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Smart Health Assistant - AI-powered symptom checker and doctor appointment portal" />
+  <meta name="keywords" content="health, medical, AI, symptom checker, doctor appointment, telemedicine" />
+  <meta name="author" content="Smart Health Assistant Team" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Smart Health Assistant & Appointment Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-teal': {
+              50: '#e0f2f1',
+              100: '#b2dfdb',
+              200: '#80cbc4',
+              300: '#4db6ac',
+              400: '#26a69a',
+              500: '#009688',
+              600: '#00897b',
+              700: '#00796b',
+              800: '#00695c',
+              900: '#004d40',
+            },
+            'brand-green': {
+              50: '#e8f5e9',
+              100: '#c8e6c9',
+              200: '#a5d6a7',
+              300: '#81c784',
+              400: '#66bb6a',
+              500: '#4CAF50',
+              600: '#43a047',
+              700: '#388e3c',
+              800: '#2e7d32',
+              900: '#1b5e20',
+            },
+          },
+        },
+      },
+    }
+  </script>
+  <script type="importmap">
+      {
+        "imports": {
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react": "https://aistudiocdn.com/react@^19.2.0",
+          "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+        }
+      }
+    </script>
+  <link rel="stylesheet" href="/assets/index.css">
+</head>
+
+<body class="bg-slate-900">
+  <div id="root"></div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="/core/index.tsx"></script>
+</body>
+
+</html>
